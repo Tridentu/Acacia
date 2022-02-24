@@ -41,3 +41,4 @@ target_link_libraries(acacia
 
 install(TARGETS acacia ${KDE_INSTALL_TARGET_DEFAULT_ARGS})
 install(PROGRAMS acacia.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
+install(FILES acacia.notifyrc DESTINATION ${KNOTIFYRC_INSTALL_DIR})

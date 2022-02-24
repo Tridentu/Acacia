@@ -1,0 +1,23 @@
+[Global]
+IconName=aptana
+Name=Acacia PM
+Comment=The GUI version of caravel-pm
+DesktopEntry=acacia
+
+[Context/update]
+Name=Updates
+Comment=Update Notifications
+
+
+[Event/newUpdate]
+Name=Update Found
+Comment=Acacia has found newer versions of some packages.
+Contexts=update
+Action=Sound|Popup
+
+[Event/updateCompleted]
+Name=Update(s) Installed
+Comment=The updates you authorized are now fully Installed
+Contexts=update
+Action=Popup
+Urgency=Normal
