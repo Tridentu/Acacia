@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=System;Internet
+Comment[en_US]=GUI version of Caravel PM
+Comment=GUI version of Caravel PM
+Exec=acacia %u
+GenericName[en_US]=Caravel Package Manager
+GenericName=Caravel Package Manager
+Icon=discover
+MimeType=
+Name[en_US]=Acacia PM
+Name=Acacia PM
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
